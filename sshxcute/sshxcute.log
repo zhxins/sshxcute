@@ -1,0 +1,863 @@
+
+=============== [2010/07/29 16:32:57, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:32:57] INFO:    SSHExec initializing ...
+[16:32:58] INFO:    Initializing session ...
+[16:32:58] INFO:    Session associate with user credential u7i8o9p0
+[16:32:58] INFO:    SSHExec initialized successfully
+[16:32:58] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[16:33:08] INFO:    SSH connection established
+[16:33:08] INFO:    Command is echo 123
+[16:33:08] INFO:    Connection channel established succesfully
+[16:33:08] INFO:    Start to run command
+[16:33:13] INFO:    123
+
+[16:33:13] INFO:    channel closed
+[16:33:13] INFO:    Exit-status: 0
+[16:33:13] INFO:    Check if exec success or not ... 
+[16:33:13] INFO:    Execute successfully for command: echo 123
+[16:33:13] INFO:    channel disconnect
+[16:33:13] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 16:35:19, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:35:19] INFO:    SSHExec initializing ...
+[16:35:19] INFO:    Session initialized and associated with user credential u7i8o9p0
+[16:35:19] INFO:    SSHExec initialized successfully
+[16:35:19] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[16:35:21] INFO:    SSH connection established
+[16:35:21] INFO:    Command is echo 123
+[16:35:21] INFO:    Connection channel established succesfully
+[16:35:21] INFO:    Start to run command
+[16:35:26] INFO:    123
+
+[16:35:26] INFO:    Connection channel closed
+[16:35:26] INFO:    Check if exec success or not ... 
+[16:35:26] INFO:    Execute successfully for command: echo 123
+[16:35:26] INFO:    Connection channel disconnect
+[16:35:26] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 16:36:59, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:36:59] INFO:    SSHExec initializing ...
+[16:36:59] INFO:    Session initialized and associated with user credential u7i8o9p0
+[16:36:59] INFO:    SSHExec initialized successfully
+[16:36:59] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[16:37:01] INFO:    SSH connection established
+[16:37:01] INFO:    Command is abcd
+[16:37:01] INFO:    Connection channel established succesfully
+[16:37:01] INFO:    Start to run command
+[16:37:06] INFO:    Connection channel closed
+[16:37:06] INFO:    Check if exec success or not ... 
+[16:37:06] INFO:    Execution failed while executing command: abcd
+[16:37:06] INFO:    Error message: ksh: abcd:  not found.
+[16:37:06] INFO:    Connection channel disconnect
+[16:37:06] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 16:37:23, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:37:23] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'false'
+[16:37:23] INFO:    SSHExec initializing ...
+[16:37:23] INFO:    Session initialized and associated with user credential u7i8o9p0
+[16:37:23] INFO:    SSHExec initialized successfully
+[16:37:23] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[16:37:24] INFO:    SSH connection established
+[16:37:24] INFO:    Command is echo 123
+[16:37:25] INFO:    Connection channel established succesfully
+[16:37:25] INFO:    Start to run command
+[16:37:30] INFO:    123
+
+[16:37:30] INFO:    Connection channel closed
+[16:37:30] INFO:    Check if exec success or not ... 
+[16:37:30] INFO:    Execute successfully for command: echo 123
+[16:37:30] INFO:    Connection channel disconnect
+[16:37:30] INFO:    Command is abcd
+[16:37:30] INFO:    Connection channel established succesfully
+[16:37:30] INFO:    Start to run command
+[16:37:35] INFO:    Connection channel closed
+[16:37:35] INFO:    Check if exec success or not ... 
+[16:37:35] INFO:    Execution failed while executing command: abcd
+[16:37:35] INFO:    Error message: ksh: abcd:  not found.
+[16:37:35] INFO:    Connection channel disconnect
+[16:37:35] INFO:    Command is pwd
+[16:37:35] INFO:    Connection channel established succesfully
+[16:37:35] INFO:    Start to run command
+[16:37:40] INFO:    /home/tsadmin
+
+[16:37:40] INFO:    Connection channel closed
+[16:37:40] INFO:    Check if exec success or not ... 
+[16:37:40] INFO:    Execute successfully for command: pwd
+[16:37:40] INFO:    Connection channel disconnect
+[16:37:40] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 16:38:10, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:38:10] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[16:38:10] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[16:38:10] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[16:38:10] INFO:    Set system configuration parameter 'INTEVAL_TIME_BETWEEN_TASKS' to new value '100000'
+[16:38:10] INFO:    ******************************************************
+[16:38:10] INFO:    The list below shows sshxcute configuration parameter
+[16:38:10] INFO:    ******************************************************
+[16:38:10] INFO:    TIMEOUT => 100000
+[16:38:10] INFO:    HALT_ON_FAILURE => true
+[16:38:10] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 100000
+[16:38:10] INFO:    SSH_PORT_NUMBER => 22
+[16:38:10] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[16:38:10] INFO:    LOG_PATH => D:\workspace\MyProject\sshxcute
+[16:38:10] INFO:    LOG_LEVEL => 4
+[16:38:10] INFO:    SSHExec initializing ...
+[16:38:10] INFO:    Session initialized and associated with user credential u7i8o9p0
+[16:38:10] INFO:    SSHExec initialized successfully
+[16:38:10] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[16:38:11] INFO:    SSH connection established
+[16:38:11] INFO:    Command is echo 123
+[16:38:12] INFO:    Connection channel established succesfully
+[16:38:12] INFO:    Start to run command
+[16:39:52] INFO:    123
+
+[16:39:52] INFO:    Connection channel closed
+[16:39:52] INFO:    Check if exec success or not ... 
+[16:39:52] INFO:    Execute successfully for command: echo 123
+[16:39:52] INFO:    Connection channel disconnect
+[16:39:52] INFO:    Command is abcd
+[16:39:52] INFO:    Connection channel established succesfully
+[16:39:52] INFO:    Start to run command
+
+=============== [2010/07/29 16:40:14, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:40:14] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[16:40:14] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[16:40:14] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[16:40:14] INFO:    ******************************************************
+[16:40:14] INFO:    The list below shows sshxcute configuration parameter
+[16:40:14] INFO:    ******************************************************
+[16:40:14] INFO:    TIMEOUT => 100000
+[16:40:14] INFO:    HALT_ON_FAILURE => true
+[16:40:14] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 5000
+[16:40:14] INFO:    SSH_PORT_NUMBER => 22
+[16:40:14] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[16:40:14] INFO:    LOG_PATH => D:\workspace\MyProject\sshxcute
+[16:40:14] INFO:    LOG_LEVEL => 4
+[16:40:14] INFO:    SSHExec initializing ...
+[16:40:14] INFO:    Session initialized and associated with user credential u7i8o9p0
+[16:40:14] INFO:    SSHExec initialized successfully
+[16:40:14] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[16:40:16] INFO:    SSH connection established
+[16:40:16] INFO:    Command is echo 123
+[16:40:16] INFO:    Connection channel established succesfully
+[16:40:16] INFO:    Start to run command
+[16:41:32] INFO:    Connection channel closed
+[16:41:32] INFO:    Check if exec success or not ... 
+[16:41:32] INFO:    Execution failed while executing command: abcd
+[16:41:32] INFO:    Error message: 
+[16:41:32] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 16:49:31, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:49:31] INFO:    SSHExec initializing ...
+[16:49:31] INFO:    Session initialized and associated with user credential u7i8o9p01
+[16:49:31] INFO:    SSHExec initialized successfully
+[16:49:31] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[16:49:32] INFO:    SSH connection established
+[16:49:32] INFO:    Command is echo 123
+[16:49:33] INFO:    Connection channel established succesfully
+[16:49:33] INFO:    Start to run command
+[16:49:38] INFO:    123
+
+[16:49:38] INFO:    Connection channel closed
+[16:49:38] INFO:    Check if exec success or not ... 
+[16:49:38] INFO:    Execute successfully for command: echo 123
+[16:49:38] INFO:    Connection channel disconnect
+[16:49:38] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 16:49:45, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:49:45] INFO:    SSHExec initializing ...
+[16:49:45] INFO:    Session initialized and associated with user credential u7i8o9p
+[16:49:45] INFO:    SSHExec initialized successfully
+[16:49:45] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[16:49:48] ERROR:   Connect fails with the following exception: com.jcraft.jsch.JSchException: Auth fail
+[16:49:48] ERROR:   session is down
+[16:49:48] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 16:50:51, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:50:51] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[16:50:51] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[16:50:51] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[16:50:51] INFO:    ******************************************************
+[16:50:51] INFO:    The list below shows sshxcute configuration parameter
+[16:50:51] INFO:    ******************************************************
+[16:50:51] INFO:    TIMEOUT => 100000
+[16:50:51] INFO:    HALT_ON_FAILURE => true
+[16:50:51] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 5000
+[16:50:51] INFO:    SSH_PORT_NUMBER => 22
+[16:50:51] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[16:50:51] INFO:    LOG_PATH => D:\workspace\MyProject\sshxcute
+[16:50:51] INFO:    LOG_LEVEL => 4
+[16:50:51] INFO:    SSHExec initializing ...
+[16:50:51] INFO:    Session initialized and associated with user credential u7i8o9p0
+[16:50:51] INFO:    SSHExec initialized successfully
+[16:50:51] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[16:50:53] INFO:    SSH connection established
+[16:50:53] INFO:    Command is echo 123
+[16:50:53] INFO:    Connection channel established succesfully
+[16:50:53] INFO:    Start to run command
+[16:50:58] INFO:    123
+
+[16:50:58] INFO:    Connection channel closed
+[16:50:58] INFO:    Check if exec success or not ... 
+[16:50:58] INFO:    Execute successfully for command: echo 123
+[16:50:58] INFO:    Connection channel disconnect
+[16:50:58] INFO:    Command is abcd
+[16:50:59] INFO:    Connection channel established succesfully
+[16:50:59] INFO:    Start to run command
+[16:51:04] INFO:    Connection channel closed
+[16:51:04] INFO:    Check if exec success or not ... 
+[16:51:04] INFO:    Execution failed while executing command: abcd
+[16:51:04] INFO:    Error message: ksh: abcd:  not found.
+[16:51:04] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 16:54:59, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:54:59] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[16:54:59] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[16:54:59] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[16:54:59] INFO:    ******************************************************
+[16:54:59] INFO:    The list below shows sshxcute configuration parameter
+[16:54:59] INFO:    ******************************************************
+[16:54:59] INFO:    TIMEOUT => 100000
+[16:54:59] INFO:    HALT_ON_FAILURE => true
+[16:54:59] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 5000
+[16:54:59] INFO:    SSH_PORT_NUMBER => 22
+[16:54:59] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[16:54:59] INFO:    LOG_PATH => D:\workspace\MyProject\sshxcute
+[16:54:59] INFO:    LOG_LEVEL => 4
+[16:54:59] INFO:    SSHExec initializing ...
+[16:54:59] INFO:    Session initialized and associated with user credential u7i8o9p0
+[16:54:59] INFO:    SSHExec initialized successfully
+[16:54:59] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[16:55:01] INFO:    SSH connection established
+[16:55:01] INFO:    Command is echo 123
+[16:55:01] INFO:    Connection channel established succesfully
+[16:55:01] INFO:    Start to run command
+[16:55:06] INFO:    123
+
+[16:55:06] INFO:    Connection channel closed
+[16:55:06] INFO:    Check if exec success or not ... 
+[16:55:06] INFO:    Execute successfully for command: echo 123
+[16:55:06] INFO:    Connection channel disconnect
+[16:55:06] INFO:    Command is abcd
+[16:55:06] INFO:    Connection channel established succesfully
+[16:55:06] INFO:    Start to run command
+[16:55:11] INFO:    Connection channel closed
+[16:55:11] INFO:    Check if exec success or not ... 
+[16:55:11] INFO:    Execution failed while executing command: abcd
+[16:55:11] INFO:    Error message: ksh: abcd:  not found.
+[16:55:11] ERROR:   The task has failed to execute :Exec command abcd. So program exit.
+[16:55:11] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 17:18:36, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:18:36] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[17:18:36] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[17:18:36] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[17:18:36] INFO:    Set system configuration parameter 'INTEVAL_TIME_BETWEEN_TASKS' to new value '100000'
+[17:18:36] INFO:    Set system configuration parameter 'TIMEOUT' to new value '36000'
+[17:18:36] INFO:    ******************************************************
+[17:18:36] INFO:    The list below shows sshxcute configuration parameter
+[17:18:36] INFO:    ******************************************************
+[17:18:36] INFO:    TIMEOUT => 36000
+[17:18:36] INFO:    HALT_ON_FAILURE => true
+[17:18:36] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 100000
+[17:18:36] INFO:    SSH_PORT_NUMBER => 22
+[17:18:36] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[17:18:36] INFO:    LOG_PATH => D:\workspace\MyProject\sshxcute
+[17:18:36] INFO:    LOG_LEVEL => 4
+[17:18:36] INFO:    SSHExec initializing ...
+[17:18:36] INFO:    Session initialized and associated with user credential u7i8o9p0
+[17:18:36] INFO:    SSHExec initialized successfully
+[17:18:36] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[17:18:38] INFO:    SSH connection established
+[17:18:38] INFO:    Command is echo 123
+[17:18:38] INFO:    Connection channel established succesfully
+[17:18:38] INFO:    Start to run command
+
+=============== [2010/07/29 17:20:18, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:20:18] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[17:20:18] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[17:20:18] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[17:20:18] INFO:    Set system configuration parameter 'INTEVAL_TIME_BETWEEN_TASKS' to new value '100000'
+[17:20:18] INFO:    Set system configuration parameter 'TIMEOUT' to new value '36000'
+[17:20:18] INFO:    ******************************************************
+[17:20:18] INFO:    The list below shows sshxcute configuration parameter
+[17:20:18] INFO:    ******************************************************
+[17:20:18] INFO:    TIMEOUT => 36000
+[17:20:18] INFO:    HALT_ON_FAILURE => true
+[17:20:18] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 100000
+[17:20:18] INFO:    SSH_PORT_NUMBER => 22
+[17:20:18] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[17:20:18] INFO:    LOG_PATH => D:\workspace\MyProject\sshxcute
+[17:20:18] INFO:    LOG_LEVEL => 4
+[17:20:18] INFO:    SSHExec initializing ...
+[17:20:18] INFO:    Session initialized and associated with user credential u7i8o9p0
+[17:20:18] INFO:    SSHExec initialized successfully
+[17:20:18] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[17:20:20] INFO:    SSH connection established
+[17:20:20] INFO:    Command is echo 123
+[17:20:20] INFO:    Connection channel established succesfully
+[17:20:20] INFO:    Start to run command
+[17:20:21] INFO:    123
+
+[17:20:21] INFO:    Connection channel closed
+[17:20:21] INFO:    Check if exec success or not ... 
+[17:20:21] INFO:    Execute successfully for command: echo 123
+
+=============== [2010/07/29 17:21:26, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:21:26] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[17:21:26] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[17:21:26] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[17:21:26] INFO:    Set system configuration parameter 'INTEVAL_TIME_BETWEEN_TASKS' to new value '100000'
+[17:21:26] INFO:    Set system configuration parameter 'TIMEOUT' to new value '36000'
+[17:21:26] INFO:    ******************************************************
+[17:21:26] INFO:    The list below shows sshxcute configuration parameter
+[17:21:26] INFO:    ******************************************************
+[17:21:26] INFO:    TIMEOUT => 36000
+[17:21:26] INFO:    HALT_ON_FAILURE => true
+[17:21:26] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 100000
+[17:21:26] INFO:    SSH_PORT_NUMBER => 22
+[17:21:26] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[17:21:26] INFO:    LOG_PATH => D:\workspace\MyProject\sshxcute
+[17:21:26] INFO:    LOG_LEVEL => 4
+[17:21:26] INFO:    SSHExec initializing ...
+[17:21:26] INFO:    Session initialized and associated with user credential u7i8o9p0
+[17:21:26] INFO:    SSHExec initialized successfully
+[17:21:26] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[17:21:28] INFO:    SSH connection established
+[17:21:28] INFO:    Command is echo 123
+[17:21:28] INFO:    Connection channel established succesfully
+[17:21:28] INFO:    Start to run command
+[17:21:28] INFO:    123
+
+[17:21:28] INFO:    Connection channel closed
+[17:21:28] INFO:    Check if exec success or not ... 
+[17:21:28] INFO:    Execute successfully for command: echo 123
+[17:21:28] INFO:    Now wait 100seconds to begin next task ...
+
+=============== [2010/07/29 17:22:12, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:22:12] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[17:22:12] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[17:22:12] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[17:22:12] INFO:    Set system configuration parameter 'INTEVAL_TIME_BETWEEN_TASKS' to new value '100000'
+[17:22:12] INFO:    Set system configuration parameter 'TIMEOUT' to new value '36000'
+[17:22:12] INFO:    ******************************************************
+[17:22:12] INFO:    The list below shows sshxcute configuration parameter
+[17:22:12] INFO:    ******************************************************
+[17:22:12] INFO:    TIMEOUT => 36000
+[17:22:12] INFO:    HALT_ON_FAILURE => true
+[17:22:12] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 100000
+[17:22:12] INFO:    SSH_PORT_NUMBER => 22
+[17:22:12] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[17:22:12] INFO:    LOG_PATH => D:\workspace\MyProject\sshxcute
+[17:22:12] INFO:    LOG_LEVEL => 4
+[17:22:12] INFO:    SSHExec initializing ...
+[17:22:12] INFO:    Session initialized and associated with user credential u7i8o9p0
+[17:22:12] INFO:    SSHExec initialized successfully
+[17:22:12] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[17:22:14] INFO:    SSH connection established
+[17:22:14] INFO:    Command is echo 123
+[17:22:14] INFO:    Connection channel established succesfully
+[17:22:14] INFO:    Start to run command
+[17:22:14] INFO:    123
+
+[17:22:14] INFO:    Connection channel closed
+[17:22:14] INFO:    Check if exec success or not ... 
+[17:22:14] INFO:    Execute successfully for command: echo 123
+[17:22:14] INFO:    Now wait 100 seconds to begin next task ...
+
+=============== [2010/07/29 17:22:29, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:22:29] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[17:22:29] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[17:22:29] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[17:22:29] INFO:    Set system configuration parameter 'INTEVAL_TIME_BETWEEN_TASKS' to new value '100000'
+[17:22:29] INFO:    Set system configuration parameter 'TIMEOUT' to new value '1'
+[17:22:29] INFO:    ******************************************************
+[17:22:29] INFO:    The list below shows sshxcute configuration parameter
+[17:22:29] INFO:    ******************************************************
+[17:22:29] INFO:    TIMEOUT => 1
+[17:22:29] INFO:    HALT_ON_FAILURE => true
+[17:22:29] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 100000
+[17:22:29] INFO:    SSH_PORT_NUMBER => 22
+[17:22:29] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[17:22:29] INFO:    LOG_PATH => D:\workspace\MyProject\sshxcute
+[17:22:29] INFO:    LOG_LEVEL => 4
+[17:22:29] INFO:    SSHExec initializing ...
+[17:22:29] INFO:    Session initialized and associated with user credential u7i8o9p0
+[17:22:29] INFO:    SSHExec initialized successfully
+[17:22:29] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[17:22:31] INFO:    SSH connection established
+[17:22:31] INFO:    Command is echo 123
+[17:22:31] INFO:    Connection channel established succesfully
+[17:22:31] INFO:    Start to run command
+[17:22:31] INFO:    123
+
+[17:22:31] INFO:    Connection channel closed
+[17:22:31] INFO:    Check if exec success or not ... 
+[17:22:31] INFO:    Execute successfully for command: echo 123
+[17:22:31] INFO:    Now wait 100 seconds to begin next task ...
+
+=============== [2010/07/29 17:23:57, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:23:57] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[17:23:57] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[17:23:57] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[17:23:57] INFO:    ******************************************************
+[17:23:57] INFO:    The list below shows sshxcute configuration parameter
+[17:23:57] INFO:    ******************************************************
+[17:23:57] INFO:    TIMEOUT => 100000
+[17:23:57] INFO:    HALT_ON_FAILURE => true
+[17:23:57] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 5000
+[17:23:57] INFO:    SSH_PORT_NUMBER => 22
+[17:23:57] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[17:23:57] INFO:    LOG_PATH => D:\workspace\MyProject\sshxcute
+[17:23:57] INFO:    LOG_LEVEL => 4
+[17:23:57] INFO:    SSHExec initializing ...
+[17:23:57] INFO:    Session initialized and associated with user credential u7i8o9p0
+[17:23:57] INFO:    SSHExec initialized successfully
+[17:23:57] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[17:23:59] INFO:    SSH connection established
+[17:23:59] INFO:    Command is echo 123
+[17:23:59] INFO:    Connection channel established succesfully
+[17:23:59] INFO:    Start to run command
+[17:24:00] INFO:    123
+
+[17:24:00] INFO:    Connection channel closed
+[17:24:00] INFO:    Check if exec success or not ... 
+[17:24:00] INFO:    Execute successfully for command: echo 123
+[17:24:00] INFO:    Now wait 5 seconds to begin next task ...
+[17:24:05] INFO:    Connection channel disconnect
+[17:24:05] INFO:    Command is abcd
+[17:24:05] INFO:    Connection channel established succesfully
+[17:24:05] INFO:    Start to run command
+[17:24:05] INFO:    Connection channel closed
+[17:24:05] INFO:    Check if exec success or not ... 
+[17:24:05] INFO:    Execution failed while executing command: abcd
+[17:24:05] INFO:    Error message: ksh: abcd:  not found.
+[17:24:05] ERROR:   The task has failed to execute :Exec command abcd. So program exit.
+[17:24:05] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 17:24:43, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:24:43] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[17:24:43] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[17:24:43] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[17:24:43] INFO:    Set system configuration parameter 'LOG_PATH' to new value 'c:\log.123'
+[17:24:43] INFO:    ******************************************************
+[17:24:43] INFO:    The list below shows sshxcute configuration parameter
+[17:24:43] INFO:    ******************************************************
+[17:24:43] INFO:    TIMEOUT => 100000
+[17:24:43] INFO:    HALT_ON_FAILURE => true
+[17:24:43] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 5000
+[17:24:43] INFO:    SSH_PORT_NUMBER => 22
+[17:24:43] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[17:24:43] INFO:    LOG_PATH => c:\log.123
+[17:24:43] INFO:    LOG_LEVEL => 4
+[17:24:43] INFO:    SSHExec initializing ...
+[17:24:43] INFO:    Session initialized and associated with user credential u7i8o9p0
+[17:24:43] INFO:    SSHExec initialized successfully
+[17:24:43] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[17:24:44] INFO:    SSH connection established
+[17:24:44] INFO:    Command is echo 123
+[17:24:45] INFO:    Connection channel established succesfully
+[17:24:45] INFO:    Start to run command
+[17:24:45] INFO:    123
+
+[17:24:45] INFO:    Connection channel closed
+[17:24:45] INFO:    Check if exec success or not ... 
+[17:24:45] INFO:    Execute successfully for command: echo 123
+[17:24:45] INFO:    Now wait 5 seconds to begin next task ...
+[17:24:50] INFO:    Connection channel disconnect
+[17:24:50] INFO:    Command is abcd
+[17:24:50] INFO:    Connection channel established succesfully
+[17:24:50] INFO:    Start to run command
+[17:24:51] INFO:    Connection channel closed
+[17:24:51] INFO:    Check if exec success or not ... 
+[17:24:51] INFO:    Execution failed while executing command: abcd
+[17:24:51] INFO:    Error message: ksh: abcd:  not found.
+[17:24:51] ERROR:   The task has failed to execute :Exec command abcd. So program exit.
+[17:24:51] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 17:25:54, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:25:54] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[17:25:54] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[17:25:54] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[17:25:54] INFO:    Set system configuration parameter 'LOG_PATH' to new value 'c:\hahaha.txt'
+[17:25:54] INFO:    ******************************************************
+[17:25:54] INFO:    The list below shows sshxcute configuration parameter
+[17:25:54] INFO:    ******************************************************
+[17:25:54] INFO:    TIMEOUT => 100000
+[17:25:54] INFO:    HALT_ON_FAILURE => true
+[17:25:54] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 5000
+[17:25:54] INFO:    SSH_PORT_NUMBER => 22
+[17:25:54] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[17:25:54] INFO:    LOG_PATH => c:\hahaha.txt
+[17:25:54] INFO:    LOG_LEVEL => 4
+[17:25:54] INFO:    SSHExec initializing ...
+[17:25:54] INFO:    Session initialized and associated with user credential u7i8o9p0
+[17:25:54] INFO:    SSHExec initialized successfully
+[17:25:54] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[17:25:56] INFO:    SSH connection established
+[17:25:56] INFO:    Command is echo 123
+[17:25:56] INFO:    Connection channel established succesfully
+[17:25:56] INFO:    Start to run command
+[17:25:57] INFO:    123
+
+[17:25:57] INFO:    Connection channel closed
+[17:25:57] INFO:    Check if exec success or not ... 
+[17:25:57] INFO:    Execute successfully for command: echo 123
+[17:25:57] INFO:    Now wait 5 seconds to begin next task ...
+[17:26:02] INFO:    Connection channel disconnect
+[17:26:02] INFO:    Command is abcd
+[17:26:02] INFO:    Connection channel established succesfully
+[17:26:02] INFO:    Start to run command
+[17:26:02] INFO:    Connection channel closed
+[17:26:02] INFO:    Check if exec success or not ... 
+[17:26:02] INFO:    Execution failed while executing command: abcd
+[17:26:02] INFO:    Error message: ksh: abcd:  not found.
+[17:26:02] ERROR:   The task has failed to execute :Exec command abcd. So program exit.
+[17:26:02] INFO:    SSH connection shutdown
+
+=============== [2010/07/29 17:48:46, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:48:46] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[17:48:46] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[17:48:46] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[17:48:46] INFO:    Set system configuration parameter 'INTEVAL_TIME_BETWEEN_TASKS' to new value '100000'
+[17:48:46] INFO:    Set system configuration parameter 'TIMEOUT' to new value '36000'
+[17:48:46] INFO:    ******************************************************
+[17:48:46] INFO:    The list below shows sshxcute configuration parameter
+[17:48:46] INFO:    ******************************************************
+[17:48:46] INFO:    TIMEOUT => 36000
+[17:48:46] INFO:    HALT_ON_FAILURE => true
+[17:48:46] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 100000
+[17:48:46] INFO:    SSH_PORT_NUMBER => 22
+[17:48:46] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[17:48:46] INFO:    SSHExec initializing ...
+[17:48:46] INFO:    Session initialized and associated with user credential u7i8o9p0
+[17:48:46] INFO:    SSHExec initialized successfully
+[17:48:46] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[17:48:48] INFO:    SSH connection established
+[17:48:48] INFO:    Command is echo 123
+[17:48:48] INFO:    Connection channel established succesfully
+[17:48:48] INFO:    Start to run command
+[17:48:49] INFO:    123
+
+[17:48:49] INFO:    Connection channel closed
+[17:48:49] INFO:    Check if exec success or not ... 
+[17:48:49] INFO:    Execute successfully for command: echo 123
+[17:48:49] INFO:    Now wait 100 seconds to begin next task ...
+[17:50:29] INFO:    Connection channel disconnect
+[17:50:29] INFO:    Command is abcd
+[17:50:29] INFO:    Connection channel established succesfully
+[17:50:29] INFO:    Start to run command
+[17:50:30] INFO:    Connection channel closed
+[17:50:30] INFO:    Check if exec success or not ... 
+[17:50:30] INFO:    Execution failed while executing command: abcd
+[17:50:30] INFO:    Error message: ksh: abcd:  not found.
+[17:50:30] ERROR:   The task has failed to execute :Exec command abcd. So program exit.
+[17:50:30] INFO:    SSH connection shutdown
+
+=============== [2010/09/09 10:40:45, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[10:40:45] INFO:    SSHExec initializing ...
+[10:40:45] INFO:    Session initialized and associated with user credential u7i8o9p0
+[10:40:45] INFO:    SSHExec initialized successfully
+[10:40:45] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[10:40:47] INFO:    SSH connection established
+[10:40:47] INFO:    Command is echo 123
+[10:40:48] INFO:    Connection channel established succesfully
+[10:40:48] INFO:    Start to run command
+[10:40:48] INFO:    Connection channel closed
+[10:40:48] INFO:    Check if exec success or not ... 
+[10:40:48] INFO:    Execution failed while executing command: echo 123
+[10:40:48] INFO:    Error message: WARNING: Your password has expired.Password change required but no TTY available.
+[10:40:48] INFO:    Now wait 5 seconds to begin next task ...
+[10:40:53] INFO:    Connection channel disconnect
+[10:40:53] INFO:    SSH connection shutdown
+
+=============== [2010/09/09 10:41:17, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[10:41:17] INFO:    SSHExec initializing ...
+[10:41:17] INFO:    Session initialized and associated with user credential vmadmin123
+[10:41:17] INFO:    SSHExec initialized successfully
+[10:41:17] INFO:    SSHExec trying to connect vmadmin@grnvm164.svl.ibm.com
+[10:41:19] INFO:    SSH connection established
+[10:41:19] INFO:    Command is echo 123
+[10:41:19] INFO:    Connection channel established succesfully
+[10:41:19] INFO:    Start to run command
+[10:41:20] INFO:    Connection channel closed
+[10:41:20] INFO:    Check if exec success or not ... 
+[10:41:20] INFO:    Execute successfully for command: echo 123
+[10:41:20] INFO:    Now wait 5 seconds to begin next task ...
+[10:41:25] INFO:    Connection channel disconnect
+[10:41:25] INFO:    SSH connection shutdown
+
+=============== [2010/09/10 11:33:27, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[11:33:27] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'false'
+[11:33:27] INFO:    SSHExec initializing ...
+[11:33:27] INFO:    Session initialized and associated with user credential vmadmin123
+[11:33:27] INFO:    SSHExec initialized successfully
+[11:33:27] INFO:    SSHExec trying to connect vmadmin@grnvm164.svl.ibm.com
+[11:33:30] INFO:    SSH connection established
+[11:33:30] INFO:    Command is pwd
+[11:33:30] INFO:    Connection channel established succesfully
+[11:33:30] INFO:    Start to run command
+[11:33:31] INFO:    /home/vmadmin
+
+[11:33:31] INFO:    Connection channel closed
+[11:33:31] INFO:    Check if exec success or not ... 
+[11:33:31] INFO:    Execute successfully for command: pwd
+[11:33:31] INFO:    Now wait 5 seconds to begin next task ...
+[11:33:36] INFO:    Connection channel disconnect
+[11:33:36] INFO:    Command is ABCD
+[11:33:36] INFO:    Connection channel established succesfully
+[11:33:36] INFO:    Start to run command
+[11:33:36] INFO:    Connection channel closed
+[11:33:36] INFO:    Check if exec success or not ... 
+[11:33:36] INFO:    Execution failed while executing command: ABCD
+[11:33:36] INFO:    Error message: bash: ABCD: command not found
+[11:33:36] INFO:    Now wait 5 seconds to begin next task ...
+[11:33:41] INFO:    Connection channel disconnect
+[11:33:42] INFO:    Command is echo $HOME
+[11:33:42] INFO:    Connection channel established succesfully
+[11:33:42] INFO:    Start to run command
+[11:33:42] INFO:    /home/vmadmin
+
+[11:33:42] INFO:    Connection channel closed
+[11:33:42] INFO:    Check if exec success or not ... 
+[11:33:42] INFO:    Execute successfully for command: echo $HOME
+[11:33:42] INFO:    Now wait 5 seconds to begin next task ...
+[11:33:47] INFO:    Connection channel disconnect
+[11:33:47] INFO:    SSH connection shutdown
+
+=============== [2010/09/10 11:34:47, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[11:34:47] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'false'
+[11:34:47] INFO:    SSHExec initializing ...
+[11:34:47] INFO:    Session initialized and associated with user credential vmadmin123
+[11:34:47] INFO:    SSHExec initialized successfully
+[11:34:47] INFO:    SSHExec trying to connect vmadin@grnvm164.svl.ibm.com
+
+=============== [2010/09/10 11:35:07, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[11:35:07] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'false'
+[11:35:07] INFO:    SSHExec initializing ...
+[11:35:07] INFO:    Session initialized and associated with user credential vmadmin123
+[11:35:07] INFO:    SSHExec initialized successfully
+[11:35:07] INFO:    SSHExec trying to connect vmadmin@grnvm164.svl.ibm.com
+[11:35:09] INFO:    SSH connection established
+[11:35:09] INFO:    Ready to transfer local file 'data/sshxcute_test.sh' to server directory '/home/tsadmin'
+[11:35:09] INFO:    Connection channel established succesfully
+[11:35:09] INFO:    Start to upload
+[11:35:10] INFO:    data/sshxcute_test.shcheck fails
+[11:35:10] INFO:    Command is chmod 755 /home/tsadmin/sshxcute_test.sh
+[11:35:10] INFO:    Connection channel established succesfully
+[11:35:10] INFO:    Start to run command
+[11:35:11] INFO:    Connection channel closed
+[11:35:11] INFO:    Check if exec success or not ... 
+[11:35:11] INFO:    Execution failed while executing command: chmod 755 /home/tsadmin/sshxcute_test.sh
+[11:35:11] INFO:    Error message: chmod: cannot access `/home/tsadmin/sshxcute_test.sh': Permission denied
+[11:35:11] INFO:    Now wait 5 seconds to begin next task ...
+[11:35:16] INFO:    Connection channel disconnect
+[11:35:16] INFO:    Command is cd /home/tsadmin ; ./sshxcute_test.sh hello world 
+[11:35:16] INFO:    Connection channel established succesfully
+[11:35:16] INFO:    Start to run command
+[11:35:16] INFO:    Connection channel closed
+[11:35:16] INFO:    Check if exec success or not ... 
+[11:35:16] INFO:    Execution failed while executing command: cd /home/tsadmin ; ./sshxcute_test.sh hello world 
+[11:35:16] INFO:    Error message: bash: line 0: cd: /home/tsadmin: Permission deniedbash: ./sshxcute_test.sh: No such file or directory
+[11:35:16] INFO:    Now wait 5 seconds to begin next task ...
+[11:35:21] INFO:    Connection channel disconnect
+[11:35:21] INFO:    SSH connection shutdown
+
+=============== [2010/09/10 11:35:33, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[11:35:33] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'false'
+[11:35:33] INFO:    SSHExec initializing ...
+[11:35:33] INFO:    Session initialized and associated with user credential tsadmin123
+[11:35:33] INFO:    SSHExec initialized successfully
+[11:35:33] INFO:    SSHExec trying to connect tsadmin@grnvm164.svl.ibm.com
+[11:35:34] INFO:    SSH connection established
+[11:35:34] INFO:    Ready to transfer local file 'data/sshxcute_test.sh' to server directory '/home/tsadmin'
+[11:35:35] INFO:    Connection channel established succesfully
+[11:35:35] INFO:    Start to upload
+[11:35:35] INFO:    Upload success
+[11:35:35] INFO:    channel disconnect
+[11:35:35] INFO:    Command is chmod 755 /home/tsadmin/sshxcute_test.sh
+[11:35:37] INFO:    Connection channel established succesfully
+[11:35:37] INFO:    Start to run command
+[11:35:37] INFO:    Connection channel closed
+[11:35:37] INFO:    Check if exec success or not ... 
+[11:35:37] INFO:    Execute successfully for command: chmod 755 /home/tsadmin/sshxcute_test.sh
+[11:35:37] INFO:    Now wait 5 seconds to begin next task ...
+[11:35:42] INFO:    Connection channel disconnect
+[11:35:42] INFO:    Command is cd /home/tsadmin ; ./sshxcute_test.sh hello world 
+[11:35:42] INFO:    Connection channel established succesfully
+[11:35:42] INFO:    Start to run command
+[11:35:43] INFO:    Login success
+
+[11:35:43] INFO:    Connection channel closed
+[11:35:43] INFO:    Check if exec success or not ... 
+[11:35:43] INFO:    Execute successfully for command: cd /home/tsadmin ; ./sshxcute_test.sh hello world 
+[11:35:43] INFO:    Now wait 5 seconds to begin next task ...
+[11:35:48] INFO:    Connection channel disconnect
+[11:35:48] INFO:    SSH connection shutdown
+
+=============== [2010/09/10 14:26:39, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:26:39] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[14:26:39] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[14:26:39] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[14:26:39] INFO:    ******************************************************
+[14:26:39] INFO:    The list below shows sshxcute configuration parameter
+[14:26:39] INFO:    ******************************************************
+[14:26:39] INFO:    TIMEOUT => 100000
+[14:26:39] INFO:    HALT_ON_FAILURE => true
+[14:26:39] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 5000
+[14:26:39] INFO:    SSH_PORT_NUMBER => 22
+[14:26:39] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[14:26:39] INFO:    SSHExec initializing ...
+[14:26:39] INFO:    Session initialized and associated with user credential u7i8o9p0
+[14:26:39] INFO:    SSHExec initialized successfully
+[14:26:39] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[14:26:42] INFO:    SSH connection established
+[14:26:42] INFO:    Command is echo 123
+[14:26:42] INFO:    Connection channel established succesfully
+[14:26:42] INFO:    Start to run command
+[14:26:43] INFO:    Connection channel closed
+[14:26:43] INFO:    Check if exec success or not ... 
+[14:26:43] INFO:    Execution failed while executing command: echo 123
+[14:26:43] INFO:    Error message: WARNING: Your password has expired.Password change required but no TTY available.
+[14:26:43] ERROR:   The task has failed to execute :Exec command echo 123. So program exit.
+[14:26:43] INFO:    SSH connection shutdown
+
+=============== [2010/09/10 14:27:01, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[14:27:01] INFO:    Set system configuration parameter 'HALT_ON_FAILURE' to new value 'true'
+[14:27:01] INFO:    Set system configuration parameter 'SSH_PORT_NUMBER' to new value '22'
+[14:27:01] INFO:    Set system configuration parameter 'ERROR_MSG_BUFFER_TEMP_FILE_PATH' to new value 'c:\123.err'
+[14:27:01] INFO:    Set system configuration parameter 'INTEVAL_TIME_BETWEEN_TASKS' to new value '5000'
+[14:27:01] INFO:    Set system configuration parameter 'TIMEOUT' to new value '36000'
+[14:27:01] INFO:    ******************************************************
+[14:27:01] INFO:    The list below shows sshxcute configuration parameter
+[14:27:01] INFO:    ******************************************************
+[14:27:01] INFO:    TIMEOUT => 36000
+[14:27:01] INFO:    HALT_ON_FAILURE => true
+[14:27:01] INFO:    INTEVAL_TIME_BETWEEN_TASKS => 5000
+[14:27:01] INFO:    SSH_PORT_NUMBER => 22
+[14:27:01] INFO:    ERROR_MSG_BUFFER_TEMP_FILE_PATH => c:\123.err
+[14:27:01] INFO:    SSHExec initializing ...
+[14:27:01] INFO:    Session initialized and associated with user credential u7i8o9p0
+[14:27:01] INFO:    SSHExec initialized successfully
+[14:27:01] INFO:    SSHExec trying to connect tsadmin@rfidic-1.svl.ibm.com
+[14:27:05] INFO:    SSH connection established
+[14:27:05] INFO:    Command is echo 123
+[14:27:06] INFO:    Connection channel established succesfully
+[14:27:06] INFO:    Start to run command
+[14:27:06] INFO:    Connection channel closed
+[14:27:06] INFO:    Check if exec success or not ... 
+[14:27:06] INFO:    Execution failed while executing command: echo 123
+[14:27:06] INFO:    Error message: WARNING: Your password has expired.Password change required but no TTY available.
+[14:27:06] ERROR:   The task has failed to execute :Exec command echo 123. So program exit.
+[14:27:06] INFO:    SSH connection shutdown
+
+=============== [2010/09/11 11:50:35, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[11:50:35] INFO:    SSHExec initializing ...
+[11:50:35] INFO:    Session initialized and associated with user credential vmadmin123
+[11:50:35] INFO:    SSHExec initialized successfully
+[11:50:35] INFO:    SSHExec trying to connect vmadmin@grnvm164.svl.ibm.com
+[11:50:40] INFO:    SSH connection established
+[11:50:40] INFO:    Command is echo 123
+[11:50:41] INFO:    Connection channel established succesfully
+[11:50:41] INFO:    Start to run command
+[11:50:41] INFO:    Connection channel closed
+[11:50:41] INFO:    Check if exec success or not ... 
+[11:50:42] INFO:    Execute successfully for command: echo 123
+[11:50:42] INFO:    Now wait 5 seconds to begin next task ...
+[11:50:47] INFO:    Connection channel disconnect
+[11:50:47] INFO:    SSH connection shutdown
+
+=============== [2010/09/11 11:51:00, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[11:51:00] INFO:    SSHExec initializing ...
+[11:51:00] INFO:    Session initialized and associated with user credential vmadmin123
+[11:51:00] INFO:    SSHExec initialized successfully
+[11:51:00] INFO:    SSHExec trying to connect vmadmin@grnvm164.svl.ibm.com
+[11:51:06] INFO:    SSH connection established
+[11:51:07] INFO:    Command is pwd
+[11:51:07] INFO:    Connection channel established succesfully
+[11:51:07] INFO:    Start to run command
+[11:51:08] INFO:    /home/vmadmin
+
+[11:51:08] INFO:    Connection channel closed
+[11:51:08] INFO:    Check if exec success or not ... 
+[11:51:08] INFO:    Execute successfully for command: pwd
+[11:51:08] INFO:    Now wait 5 seconds to begin next task ...
+[11:51:13] INFO:    Connection channel disconnect
+[11:51:13] INFO:    SSH connection shutdown
+
+=============== [2018/05/11 16:10:20, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:10:20] INFO:    SSHExec initializing ...
+[16:10:21] INFO:    Session initialized and associated with user credential root123
+[16:10:21] INFO:    SSHExec initialized successfully
+[16:10:21] INFO:    SSHExec trying to connect root@10.14.223.24
+[16:10:22] INFO:    SSH connection established
+[16:10:22] INFO:    Command is pwd
+[16:10:22] INFO:    Connection channel established succesfully
+[16:10:22] INFO:    Start to run command
+[16:10:22] INFO:    /root
+
+[16:10:22] INFO:    Connection channel closed
+[16:10:22] INFO:    Check if exec success or not ... 
+[16:10:22] INFO:    Execute successfully for command: pwd
+[16:10:22] INFO:    Now wait 5 seconds to begin next task ...
+[16:10:27] INFO:    Connection channel disconnect
+[16:10:27] INFO:    SSH connection shutdown
+
+=============== [2018/05/11 16:17:24, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[16:17:24] INFO:    SSHExec initializing ...
+[16:17:24] INFO:    Session initialized and associated with user credential root123
+[16:17:24] INFO:    SSHExec initialized successfully
+[16:17:24] INFO:    SSHExec trying to connect root@10.14.223.24
+[16:17:24] INFO:    SSH connection established
+[16:17:24] INFO:    Command is pwd
+[16:17:25] INFO:    Connection channel established succesfully
+[16:17:25] INFO:    Start to run command
+[16:17:25] INFO:    /root
+
+[16:17:25] INFO:    Connection channel closed
+[16:17:25] INFO:    Check if exec success or not ... 
+[16:17:25] INFO:    Execute successfully for command: pwd
+[16:17:25] INFO:    Now wait 5 seconds to begin next task ...
+[16:17:30] INFO:    Connection channel disconnect
+[16:17:30] INFO:    SSH connection shutdown
+
+=============== [2018/05/11 17:23:45, net.neoremind.sshxcute.core.SSHExec.<clinit>:80] ====================
+
+[17:23:45] INFO:    SSHExec initializing ...
+[17:23:46] INFO:    Session initialized and associated with user credential root123
+[17:23:46] INFO:    SSHExec initialized successfully
+[17:23:46] INFO:    SSHExec trying to connect root@10.14.200.252
+[17:23:58] ERROR:   Connect fails with the following exception: com.jcraft.jsch.JSchException: Auth fail
+[17:23:58] ERROR:   session is down
+[17:23:58] INFO:    SSH connection shutdown
